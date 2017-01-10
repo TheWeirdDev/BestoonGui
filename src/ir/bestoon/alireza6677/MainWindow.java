@@ -23,6 +23,7 @@ import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.SwingWorker;
+import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
@@ -55,7 +56,7 @@ public class MainWindow extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					// UIManager.setLookAndFeel(new
+					 UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 					// SyntheticaWhiteVisionLookAndFeel());
 					// SwingUtilities.updateComponentTreeUI(this);
 					// UIManager.setLookAndFeel(new NimbusLookAndFeel());
@@ -75,7 +76,7 @@ public class MainWindow extends JFrame {
 		setTitle("Bestoon Gui");
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 372, 428);
+		setBounds(100, 100, 401, 511);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
