@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-jdk"/>
+	<classpathentry kind="lib" path="/home/alireza/Desktop/java/syntheticaWhiteVision.jar"/>
+	<classpathentry kind="lib" path="/home/alireza/Desktop/java/synthetica.jar"/>
+	<classpathentry kind="lib" path="jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="/home/alireza/apache-tomcat-9.0.0.M9/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient-cache-4.5.2.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient-win-4.5.2.jar"/>
+	<classpathentry kind="lib" path="libs/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="libs/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="libs/json-1.5-20090211.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
