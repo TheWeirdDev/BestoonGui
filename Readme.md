@@ -1,5 +1,5 @@
 # Bestoon GUI
-Multiplatform gui for bestoon.ir project
+Multiplatform gui for [bestoon.ir](https://github.com/jadijadi/bestoon) project
 
 # Requirements
 Mac OS X - Gnu/Linux - Windows 7+
